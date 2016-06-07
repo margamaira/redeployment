@@ -125,7 +125,6 @@ Main content
 .cd-item {
   width: 100%;
   height: 300px;
-  text-align: center;
   /* Force Hardware Acceleration */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -147,40 +146,18 @@ Main content
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.cd-item > a.dark-text {
-  color: #363558;
-}
-.cd-item > a.dark-text b {
-  border-color: #363558;
-}
 .cd-item div {
   display: table-cell;
   vertical-align: middle;
 }
-.cd-item:nth-of-type(1) {
-  background-color: #363558;
-}
-.cd-item:nth-of-type(2) {
-  background-color: #544173;
-}
-.cd-item:nth-of-type(3) {
-  background-color: #dadcdc;
-}
-.cd-item:nth-of-type(4) {
-  background-color: #65d29b;
-}
-.cd-item h2 {
-  font-size: 2.2rem;
-}
 .cd-item p {
   line-height: 1.2;
-  font-size: 1.4rem;
   opacity: 0.6;
   padding: 1em 0;
+  font-size: 1.2rem;
 }
 .cd-item b {
   display: inline-block;
-  font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -196,9 +173,6 @@ Main content
     -webkit-transition: -webkit-transform 0.5s 0.4s;
     -moz-transition: -moz-transform 0.5s 0.4s;
     transition: transform 0.5s 0.4s;
-  }
-  .cd-item p {
-    font-size: 1.6rem;
   }
   .cd-item h2, .cd-item p {
     -webkit-transform: translateY(30px);
@@ -221,7 +195,7 @@ Main content
     -moz-transition: opacity 0.3s 0s, -moz-transform 0.3s 0s;
     transition: opacity 0.3s 0s, transform 0.3s 0s;
   }
-  .no-touch .cd-item a:hover h2, .no-touch .cd-item a:hover p {
+  .cd-item a:hover h2, .cd-item a:hover p {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -230,9 +204,11 @@ Main content
     -webkit-transition: -webkit-transform 0.3s 0s;
     -moz-transition: -moz-transform 0.3s 0s;
     transition: transform 0.3s 0s;
+    color: white;
   }
-  .no-touch .cd-item a:hover b {
+  .cd-item a:hover b {
     opacity: 1;
+    color: white;
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
@@ -492,13 +468,9 @@ folding panel
   transform: translateY(20px);
 }
 .cd-fold-content h2 {
-  font-size: 2.4rem;
   -webkit-transition: -webkit-transform 0.2s 0.2s, opacity 0.2s 0.2s;
   -moz-transition: -moz-transform 0.2s 0.2s, opacity 0.2s 0.2s;
   transition: transform 0.2s 0.2s, opacity 0.2s 0.2s;
-}
-.cd-fold-content p, .cd-fold-content em {
-  line-height: 1.6;
 }
 .cd-fold-content em {
   display: inline-block;
@@ -549,9 +521,6 @@ folding panel
   transition: transform 0.2s 0.7s, opacity 0.2s 0.7s;
 }
 @media only screen and (min-width: 600px) {
-  .cd-fold-content h2 {
-    font-size: 3.2rem;
-  }
 }
 @media only screen and (min-width: 1100px) {
   .cd-fold-content {
@@ -566,9 +535,6 @@ folding panel
   }
   .cd-fold-content em {
     font-size: 2.2rem;
-  }
-  .cd-fold-content p {
-    font-size: 1.6rem;
   }
 }
 

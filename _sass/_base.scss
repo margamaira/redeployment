@@ -21,6 +21,9 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
 
@@ -210,4 +213,53 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+/*Tabs*/
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background: #EAEAEA;
+    border-radius: 4px;
+    border: none;
+}
+
+/*Header*/
+
+.site-title {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    float: left;
+    margin: 5px 0 0;
+}
+
+.site-title a {
+    color: $rojo;
+}
+
+.sub-brand {
+    font-size: 14px;
+    text-align: right;
+    margin: -5px 0 15px;
+    line-height: 14px;
+    font-weight: 300;
+}
+
+.sub-brand a {
+    color: $azul;
+}
+
+/*Folding panels*/
+
+.cd-item:nth-of-type(1) {
+  background-color: $magenta;
+}
+.cd-item:nth-of-type(2) {
+  background-color: $celeste;
+}
+.cd-item:nth-of-type(3) {
+  background-color: $amarillo;
+}
+.cd-item:nth-of-type(4) {
+  background-color: $rojo;
 }
