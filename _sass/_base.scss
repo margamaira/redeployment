@@ -101,20 +101,40 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $rojo;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($rojo, 15%);
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: darken($rojo, 15%);
     }
 }
 
+.btn {
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    color: #FFF;
+    border: none;
+}
 
+.btn-default {
+    background-color: #F94235;
+    border-bottom: 3px solid darken($rojo, 15%);
+}
+
+.btn-default:hover {
+    background: darken($rojo, 15%);
+    border-bottom: 3px solid darken($rojo, 15%);
+}
+
+a.btn, a.btn:visited {
+    color: #FFF;
+}
 
 /**
  * Blockquotes
