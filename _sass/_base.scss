@@ -32,8 +32,7 @@ body {
  * Set `margin-bottom` to maintain vertical rhythm
  */
 h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+p, blockquote, pre, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
@@ -50,6 +49,10 @@ h3 {
   font-size: 1.5rem;
 }
 
+.bajada {
+  color: lighten($text-color, 40%);
+}
+
 
 /**
  * Images
@@ -58,7 +61,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
 
 
 /**
@@ -110,6 +112,8 @@ a {
 
     &:hover {
         color: darken($rojo, 15%);
+        text-decoration: none;
+        cursor: pointer;
     }
 }
 
@@ -132,7 +136,17 @@ a {
     border-bottom: 3px solid darken($rojo, 15%);
 }
 
-a.btn, a.btn:visited {
+.btn-primary {
+    background-color: white;
+    border-bottom: 3px solid darken(white, 15%);
+}
+
+.btn-primary:hover {
+    background: darken(white, 15%);
+    border-bottom: 3px solid darken(white, 15%);
+}
+
+a.btn-default, a.btn-default:visited {
     color: #FFF;
 }
 
@@ -235,12 +249,21 @@ pre {
     }
 }
 
-/*Tabs*/
+/* Tabs proyectos */
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+.proyectos li {
+  margin: 5px 0;
+}
+
+.proyectos li a {
     background: #EAEAEA;
     border-radius: 4px;
-    border: none;
+    padding: 5px 10px;
+}
+
+.proyectos>li.active>a, .proyectos>li.active>a:focus, .proyectos>li.active>a:hover {
+    background: $rojo;
+    color: white;
 }
 
 /*Header*/
@@ -254,7 +277,7 @@ pre {
 }
 
 .site-title a {
-    color: $rojo;
+    color: $celeste;
 }
 
 .sub-brand {
@@ -266,7 +289,27 @@ pre {
 }
 
 .sub-brand a {
-    color: $azul;
+    color: white;
+}
+
+/* -------------------------------- 
+
+Hero
+
+-------------------------------- */
+#hero {
+    text-align: center;
+    padding: 100px 0;
+    background: url(../img/postits.png);
+}
+
+#hero h1 {
+  color: #363558;
+}
+@media only screen and (min-width: 600px) {
+  #hero h1 {
+    font-size: 3rem;
+  }
 }
 
 /*Folding panels*/
@@ -282,4 +325,43 @@ pre {
 }
 .cd-item:nth-of-type(4) {
   background-color: $rojo;
+}
+
+.cd-item:nth-of-type(1) a:hover b, .cd-item:nth-of-type(1) a b {
+    color: $magenta;
+}
+
+.cd-item:nth-of-type(2) a:hover b, .cd-item:nth-of-type(2) a b {
+    color: $celeste;
+}
+
+.cd-item:nth-of-type(3) a:hover b, .cd-item:nth-of-type(3) a b {
+    color: $amarillo;
+}
+
+.cd-item:nth-of-type(4) a:hover b, .cd-item:nth-of-type(4) a b {
+    color: $rojo;
+}
+
+/*Contacto*/
+
+section#contacto {
+  background: $azul;
+  padding: $spacing-unit * 2 0 $spacing-unit * 3;
+  color: white;
+  position: relative;
+}
+
+section#contacto:before {
+  content: url(../img/gente-before.svg);
+  position: absolute;
+  top: 25px;
+  left: 10px;
+}
+
+section#contacto:after {
+  content: url(../img/gente-after.svg);
+  position: absolute;
+  top: 25px;
+  right: 10px;
 }

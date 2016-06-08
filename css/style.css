@@ -22,25 +22,6 @@ Patterns - reusable parts of our design
 
 /* -------------------------------- 
 
-Hero
-
--------------------------------- */
-#hero {
-  text-align: center;
-  background: #ffffff;
-  margin: 100px auto 140px;
-}
-#hero h1 {
-  color: #363558;
-}
-@media only screen and (min-width: 600px) {
-  #hero h1 {
-    font-size: 3rem;
-  }
-}
-
-/* -------------------------------- 
-
 Main content
 
 -------------------------------- */
@@ -158,12 +139,6 @@ Main content
 }
 .cd-item b {
   display: inline-block;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  padding: 1em 1.3em;
-  border-radius: 50em;
-  border: 1px solid #ffffff;
 }
 @media only screen and (min-width: 1100px) {
   .cd-item {
@@ -484,7 +459,6 @@ folding panel
 }
 .cd-fold-content p {
   margin-bottom: 1em;
-  font-size: 1.4rem;
   -webkit-transition: -webkit-transform 0.2s 0s, opacity 0.2s 0s;
   -moz-transition: -moz-transform 0.2s 0s, opacity 0.2s 0s;
   transition: transform 0.2s 0s, opacity 0.2s 0s;
