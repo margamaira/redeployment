@@ -296,7 +296,7 @@ pre {
     color: white;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Hero
 
@@ -321,15 +321,27 @@ Hero
 
 .cd-item:nth-of-type(1) {
   background-color: $magenta;
+  h2, p {
+    color: #FFF;
+  }
 }
 .cd-item:nth-of-type(2) {
   background-color: $celeste;
+  h2, p {
+    color: #FFF;
+  }
 }
 .cd-item:nth-of-type(3) {
   background-color: $amarillo;
+  h2, p {
+    color: #FFF;
+  }
 }
 .cd-item:nth-of-type(4) {
   background-color: $rojo;
+  h2, p {
+    color: #FFF;
+  }
 }
 
 .cd-item:nth-of-type(1) a:hover b, .cd-item:nth-of-type(1) a b {
@@ -389,16 +401,18 @@ section#contacto {
   position: relative;
 }
 
-section#contacto:before {
-  content: url(../img/gente-before.svg);
-  position: absolute;
-  top: 25px;
-  left: 10px;
-}
+@media (min-width: 1240px) {
+  section#contacto:before {
+    content: url(../img/gente-before.svg);
+    position: absolute;
+    top: 25px;
+    left: 10px;
+  }
 
-section#contacto:after {
-  content: url(../img/gente-after.svg);
-  position: absolute;
-  top: 25px;
-  right: 10px;
+  section#contacto:after {
+    content: url(../img/gente-after.svg);
+    position: absolute;
+    top: 25px;
+    right: 10px;
+  }
 }
