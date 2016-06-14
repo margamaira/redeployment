@@ -1,31 +1,86 @@
-<!doctype html>
-<html lang="en" class="no-js">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: default
+---
+<div class="cd-fold-content single-page">
+  <h2>Incide de manera estratégica junto a tu equipo</h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam expedita, illo, nihil doloremque voluptas minus sapiente deleniti enim, aliquam temporibus officia ipsa, beatae voluptates reiciendis facere consectetur quidem eveniet. Suscipit.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit similique fugit nobis eveniet, et, dolor commodi illum neque ab maiores consectetur quae perspiciatis eligendi facere nesciunt sequi laboriosam alias adipisci!
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sit voluptatum corporis numquam consequuntur aliquid delectus veritatis quo provident ipsum, mollitia fugiat, harum nobis ab quisquam natus! Delectus, veritatis, eaque.
+  </p>
+  <div>
+    <!-- Nav tabs -->
+    <ul class="list-inline proyectos" role="tablist">
+      {% capture first_item %}true{% endcapture %}
+      {% for t in site.tools %}
+        {% if t.tool_category == 'category_04' %}
+        <li role="presentation" class="{% if first_item == 'true' %}active{% endif %}"><a href="#project-{{ forloop.index }}" aria-controls="project-{{ forloop.index }}" role="tab" data-toggle="tab">{{t.tool_title}}</a></li>
+        {% capture first_item %}false{% endcapture %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      {% capture first_item %}true{% endcapture %}
+      {% for t in site.tools %}
+        {% if t.tool_category == 'category_04' %}
+        <div role="tabpanel" class="tab-pane {% if first_item == 'true' %}active{% endif %}" id="project-{{ forloop.index }}">
 
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>3D Folding Panel</title>
-</head>
-<body>
-	<div class="cd-fold-content single-page">
-		<h2>Title 4</h2>
-		<em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, laboriosam?</em>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus tempora nostrum aut quam praesentium veritatis nisi, odio eius, voluptatibus, iure neque commodi corrupti, inventore laborum fugiat itaque. Pariatur rem veritatis earum quia maxime praesentium accusantium ipsam veniam tenetur hic tempora, unde ipsa esse, aut est repellendus porro, maiores corporis illo!
-		</p>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus tempora nostrum aut quam praesentium veritatis nisi, odio eius, voluptatibus, iure neque commodi corrupti, inventore laborum fugiat itaque. Pariatur rem veritatis earum quia maxime praesentium accusantium ipsam veniam tenetur hic tempora, unde ipsa esse, aut est repellendus porro, maiores corporis illo!
-		</p>
-		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, quidem, dolor! Necessitatibus libero suscipit voluptatum, ex voluptates. Ab, sit nam eum, officiis natus sunt totam aperiam id quo sed obcaecati itaque hic quia, facilis magni est sequi minima ex placeat commodi et modi eos consectetur recusandae. Adipisci quaerat voluptatum dolorem doloribus, ullam molestiae praesentium, saepe, voluptate quasi suscipit iure. Ipsam, iste excepturi dolore, explicabo numquam debitis ducimus laudantium? Aperiam perferendis accusantium quis magnam, odit doloribus, officia nesciunt voluptatum quidem voluptatibus veritatis temporibus adipisci dignissimos dolor quod beatae aliquam similique expedita! Distinctio rem tempora temporibus molestias veritatis accusamus ipsa pariatur iusto!
-		</p>
-	</div>
-</body>
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
-</body>
-</html>
+          <h3 class="text-center">{{ t.tool_title }}</h3>
+
+          <h4 class="bajada">{{ t.tool_description }}</h4>
+
+          <!-- Slider -->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="{{ site.baseurl }}/img/pantallazos/agenda-transparencia.png" alt="Agenda Transparencia">
+              </div>
+              <div class="item">
+                <img src="{{ site.baseurl }}/img/pantallazos/civio.png" alt="Agenda Transparencia">
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </a>
+          </div>
+          <!-- Fin slider -->
+
+
+          <h3>Con esta herramienta podrás:</h3>
+          <p>{{t.tool_respond_to}}</p>
+
+          <ul><strong>Con esta herramienta podrás:</strong>
+            {% for spec in t.tool_specs %}
+            <li><i class="fa fa-check" aria-hidden="true"></i> {{ spec.key }}</li>
+            {% endfor %}
+          </ul>
+
+          <ul><strong>Funcionando en:</strong>
+            {% for deploy in t.tool_deploys %}
+            <li><a href="{{ deploy.url }}" target="_blank" onClick="ga('send','event','click','link-deploy {{ deploy.name }}')"><i class="fa fa-external-link" aria-hidden="true"></i> {{ deploy.name }}</a></li>
+            {% endfor %}
+          </ul>
+
+        </div>
+        {% capture first_item %}false{% endcapture %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
