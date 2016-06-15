@@ -1,11 +1,13 @@
 ---
 layout: page
 title: Sobre nosotros
-permalink: /about/
+permalink: /about-us/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium sed vitae neque, iste, voluptas officiis doloremque dolores beatae adipisci, repellat, natus nemo aliquam eaque facere. Asperiores quisquam ipsam libero itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit facilis soluta exercitationem, atque culpa molestiae iure! Dolorem doloremque accusantium eaque suscipit, ducimus harum architecto est, in dolores adipisci. Hic, molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos unde repellat accusamus consequuntur eaque ea, culpa tempora modi perspiciatis, vitae nisi laboriosam eligendi mollitia temporibus tenetur porro? Neque, officiis vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut vel unde iste quaerat assumenda fuga libero tempore voluptatem impedit rem aperiam autem enim, rerum amet! In repellendus ab quaerat, quas.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Magnam sapiente quam exercitationem! Odit aspernatur nihil distinctio laudantium, provident cum, fuga, dolore et tempore atque id voluptatum quidem qui maiores, ipsam esse facilis similique error ea consequuntur incidunt? Voluptatum? Veritatis aspernatur numquam eius provident ipsum consequuntur, perferendis nostrum ea aliquam, qui quas iste et! Doloribus harum optio nobis nisi iusto quam quos velit et, aspernatur debitis architecto sint laboriosam! Maiores, alias debitis deserunt optio repudiandae tempora corrupti sint delectus minima reiciendis maxime ad, in error modi ab, porro nihil beatae illo magnam. Recusandae deserunt tempore laborum mollitia, temporibus tempora?
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Voluptas perspiciatis laborum, non harum dolor, cum odio blanditiis reprehenderit velit consequuntur laboriosam nesciunt iure ab quia. Libero aut excepturi aliquam, mollitia, modi voluptas hic soluta vitae, consequuntur et in. Magnam aspernatur commodi asperiores, odio pariatur, possimus obcaecati. Perspiciatis quidem consectetur quae explicabo fugiat repudiandae nemo unde tenetur repellendus inventore molestias amet nostrum ea vel, aliquam distinctio mollitia reprehenderit. Consequuntur? Totam veritatis dicta amet, et temporibus obcaecati magni commodi quos inventore, iure dolore. Explicabo accusamus adipisci, numquam amet consectetur sed consequatur odio ex, quaerat unde beatae similique aliquid aut veritatis!
+
+Ipsam illum odio numquam reprehenderit aut non libero. Perspiciatis, provident amet nam illo quo at dignissimos, beatae quaerat eligendi. Possimus placeat deserunt facere ullam deleniti ut error ad odit laboriosam. Vero enim, in dolores! Fugit itaque vitae repellendus soluta ducimus. Expedita, necessitatibus aliquam incidunt! Quas eaque ad neque aliquid maxime, quod consequuntur consectetur harum recusandae voluptatibus illo, itaque facilis, amet. Reprehenderit eveniet rem excepturi autem sit dignissimos quas non aliquam, unde ad saepe voluptatum quos, maiores deserunt cum ducimus similique id cupiditate eligendi repellat ratione error, enim nostrum. Consequatur, vitae!

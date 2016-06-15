@@ -1,0 +1,24 @@
+{
+  "name": "redeployment",
+  "homepage": "https://github.com/ciudadanointeligente/redeployment",
+  "authors": [
+    "ジョセフ·ダミアン·ガリード <damian.garrido.munoz@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "karla": "https://google-fonts.azurewebsites.net/googleFonts/Karla?family=Karla",
+    "raleway": "https://google-fonts.azurewebsites.net/googleFonts/Raleway?family=Raleway",
+    "jquery": "2.2.4"
+  }
+}

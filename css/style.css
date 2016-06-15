@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -11,7 +11,7 @@ a {
   color: #544173;
   text-decoration: none;
 }
-/* -------------------------------- 
+/* --------------------------------
 
 Patterns - reusable parts of our design
 
@@ -20,14 +20,14 @@ Patterns - reusable parts of our design
   overflow: hidden;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Main content
 
 -------------------------------- */
-.cd-main {
+/*.cd-main {
   overflow-x: hidden;
-}
+}*/
 .cd-main::before {
   /* never visible - this is used in jQuery to check the current MQ */
   display: none;
@@ -140,62 +140,43 @@ Main content
 .cd-item b {
   display: inline-block;
 }
-@media only screen and (min-width: 1100px) {
+.cd-item .row .col-md-8 a {
+  color: #FFF;
+}
+@media only screen and (min-width: 1024px) {
   .cd-item {
     width: 50%;
     float: left;
-    height: 520px;
-    -webkit-transition: -webkit-transform 0.5s 0.4s;
-    -moz-transition: -moz-transform 0.5s 0.4s;
-    transition: transform 0.5s 0.4s;
+    height: 375px;
   }
-  .cd-item h2, .cd-item p {
-    -webkit-transform: translateY(30px);
-    -moz-transform: translateY(30px);
-    -ms-transform: translateY(30px);
-    -o-transform: translateY(30px);
+  .cd-item .row .col-md-8 h2 {
     transform: translateY(30px);
-    -webkit-transition: -webkit-transform 0.3s 0.1s;
-    -moz-transition: -moz-transform 0.3s 0.1s;
     transition: transform 0.3s 0.1s;
   }
-  .cd-item b {
+  .cd-item .row .col-md-8 p {
+    transform: translateY(30px);
+    transition: transform 0.3s 0.1s;
+  }
+  .cd-item .row .col-md-8 a b {
     opacity: 0;
-    -webkit-transform: translateY(20px);
-    -moz-transform: translateY(20px);
-    -ms-transform: translateY(20px);
-    -o-transform: translateY(20px);
-    transform: translateY(20px);
-    -webkit-transition: opacity 0.3s 0s, -webkit-transform 0.3s 0s;
-    -moz-transition: opacity 0.3s 0s, -moz-transform 0.3s 0s;
+    transform: translateY(30px);
     transition: opacity 0.3s 0s, transform 0.3s 0s;
   }
-  .cd-item a:hover h2, .cd-item a:hover p {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0);
-    -webkit-transition: -webkit-transform 0.3s 0s;
-    -moz-transition: -moz-transform 0.3s 0s;
-    transition: transform 0.3s 0s;
-    color: white;
+
+  .cd-item:hover .row .col-md-8 h2 {
+    transform: translateY(15px);
+    transition: transform 0.3s 0.1s;
   }
-  .cd-item a:hover b {
+  .cd-item:hover .row .col-md-8 p {
+    transform: translateY(15px);
+    transition: transform 0.3s 0.1s;
+  }
+  .cd-item:hover .row .col-md-8 a b {
     opacity: 1;
-    color: white;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
     transform: translateY(0);
-    -webkit-transition: opacity 0.3s 0.1s, -webkit-transform 0.3s 0.1s;
-    -moz-transition: opacity 0.3s 0.1s, -moz-transform 0.3s 0.1s;
     transition: opacity 0.3s 0.1s, transform 0.3s 0.1s;
   }
   .fold-is-open .cd-item {
-    -webkit-transition: -webkit-transform 0.5s 0s;
-    -moz-transition: -moz-transform 0.5s 0s;
     transition: transform 0.5s 0s;
     -webkit-transform: translateX(-400px);
     -moz-transform: translateX(-400px);
@@ -212,7 +193,7 @@ Main content
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 folding panel
 
@@ -512,7 +493,7 @@ folding panel
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
 Javascript disabled
 
