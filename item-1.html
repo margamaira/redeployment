@@ -12,7 +12,7 @@ layout: default
   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
     {% capture first_item %}true{% endcapture %}
       {% for t in site.tools %}
-        <!-- {% if t.tool_category == 'category_01' %} -->
+        {% if t.tool_category == 'category_01' %}
 		    <div class="panel panel-default">
 		    <!-- Heading -->
 		      <div class="panel-heading" role="tab" id="heading-{{ forloop.index }}">
@@ -67,7 +67,7 @@ layout: default
 		        </div>
 		      </div>
 		    </div>
-              <!-- {% capture first_item %}false{% endcapture %} -->
+              {% capture first_item %}false{% endcapture %}
         {% endif %}
       {% endfor %}
   </div>
