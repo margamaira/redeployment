@@ -9,6 +9,8 @@ twitter_username: ciudadanoi
 # Build settings
 markdown: kramdown
 
+analytics_id: 'UA-76464035-1'
+
 collections:
   tools:
     output: true
