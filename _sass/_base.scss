@@ -307,9 +307,13 @@ Hero
     background: url(../img/postits.png);
 }
 
-#hero h1, #hero h3 {
-  color: #363558;
-      background: rgba(255, 255, 255, 0.5);
+#hero h1 {
+  color: white;
+}
+
+#hero h3 {
+  color: white;
+  font-weight: 700;
 }
 @media only screen and (min-width: 600px) {
   #hero h1 {
