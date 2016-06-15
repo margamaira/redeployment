@@ -4,8 +4,21 @@ title: Sobre nosotros
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<section id="about">
+  <h3>¿De dónde venimos?</h3>
+  <p>
+    La Fundación Ciudadano Inteligente inició sus actividades en el año 2009 con la intención de afrontar los mayores desafíos en materia de fortalecimiento democrático en América Latina impulsando para ello una mayor transparencia, una más contundente participación ciudadana y aprovechando la tecnología para facilitar dichos procesos. En ese momento se dio una coyuntura en Chile en el que por un lado estaba entrando en vigencia una ley de acceso a la información, y por otro estaba por iniciar un proceso electoral presidencial. Adicionalmente se hizo cada vez más claro que los medios digitales eran cada vez más una herramienta más común para la interacción entre personas. En ese sentido, la Fundación encontró en su origen una oportunidad: utilizar tecnología para fomentar mejores procesos de participación y los sistemas de gestión pública.
+  </p>
+  <p>
+    En estos más de 6 años FCI ha realizado más de 20 proyectos involucrando para ello a otros actores en la operación, diseño y evaluación. En ese tiempo hemos observado muchos de los grandes obstáculos que restringen una mayor participación en diferentes países, pero al mismo tiempo hemos encontrado muchas y muy buenas oportunidades de abrir espacios, redes y plataformas que no existían antes.
+  </p>
+  <h3>Valores y Principios</h3>
+  <p>
+    Nuestra visión de sociedad y nuestra forma de actuar se inspira en valores y principios que constituyen la médula de la identidad de nuestra fundación y que buscamos promover en todos nuestros ámbitos de acción.
+  </p>
+  <p>
+    Democracia como redistribución del poder: Desde Ciudadano Inteligente creemos que el concepto de Democracia engloba las distintas condiciones que permiten que en los procesos de deliberación y decisión, todos los miembros de la sociedad tengan una incidencia equitativa. Eso incluye una preocupación por las asimetrías de información y la generación de espacios de participación, así como también una promoción por el respeto, la diversidad, la empatía y los derechos humanos.
+    Innovación y Creatividad: El enfoque con el que Ciudadano Inteligente adopta desafíos, plantea soluciones y genera diálogos está basado en la búsqueda de la innovación y el ejercicio creativo.
+    Actitud Propositiva: Las acciones de Ciudadano Inteligente no se quedan en la denuncia, sino que buscan constantemente proponer ideas, modelos, sistemas y herramientas que mejoren las condiciones existentes.
+  </p>
+</section>
