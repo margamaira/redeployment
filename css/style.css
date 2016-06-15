@@ -137,10 +137,11 @@ Main content
   padding: 1em 0;
   font-size: 1.2rem;
 }
-.cd-item b {
+.cd-item .row .col-md-8 a.btn.btn-primary {
   display: inline-block;
+  color: #db1507;
 }
-.cd-item .row .col-md-8 a {
+.cd-item .row .col-md-8 h2 a {
   color: #FFF;
 }
 @media only screen and (min-width: 1024px) {
@@ -157,7 +158,7 @@ Main content
     transform: translateY(30px);
     transition: transform 0.3s 0.1s;
   }
-  .cd-item .row .col-md-8 a b {
+  .cd-item .row .col-md-8 a.btn {
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.3s 0s, transform 0.3s 0s;
@@ -171,7 +172,7 @@ Main content
     transform: translateY(15px);
     transition: transform 0.3s 0.1s;
   }
-  .cd-item:hover .row .col-md-8 a b {
+  .cd-item:hover .row .col-md-8 a.btn {
     opacity: 1;
     transform: translateY(0);
     transition: opacity 0.3s 0.1s, transform 0.3s 0.1s;

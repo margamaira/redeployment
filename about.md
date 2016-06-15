@@ -3,11 +3,21 @@ layout: page
 title: Sobre nosotros
 permalink: /about-us/
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium sed vitae neque, iste, voluptas officiis doloremque dolores beatae adipisci, repellat, natus nemo aliquam eaque facere. Asperiores quisquam ipsam libero itaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit facilis soluta exercitationem, atque culpa molestiae iure! Dolorem doloremque accusantium eaque suscipit, ducimus harum architecto est, in dolores adipisci. Hic, molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos unde repellat accusamus consequuntur eaque ea, culpa tempora modi perspiciatis, vitae nisi laboriosam eligendi mollitia temporibus tenetur porro? Neque, officiis vitae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut vel unde iste quaerat assumenda fuga libero tempore voluptatem impedit rem aperiam autem enim, rerum amet! In repellendus ab quaerat, quas.
-
-Magnam sapiente quam exercitationem! Odit aspernatur nihil distinctio laudantium, provident cum, fuga, dolore et tempore atque id voluptatum quidem qui maiores, ipsam esse facilis similique error ea consequuntur incidunt? Voluptatum? Veritatis aspernatur numquam eius provident ipsum consequuntur, perferendis nostrum ea aliquam, qui quas iste et! Doloribus harum optio nobis nisi iusto quam quos velit et, aspernatur debitis architecto sint laboriosam! Maiores, alias debitis deserunt optio repudiandae tempora corrupti sint delectus minima reiciendis maxime ad, in error modi ab, porro nihil beatae illo magnam. Recusandae deserunt tempore laborum mollitia, temporibus tempora?
-
-Voluptas perspiciatis laborum, non harum dolor, cum odio blanditiis reprehenderit velit consequuntur laboriosam nesciunt iure ab quia. Libero aut excepturi aliquam, mollitia, modi voluptas hic soluta vitae, consequuntur et in. Magnam aspernatur commodi asperiores, odio pariatur, possimus obcaecati. Perspiciatis quidem consectetur quae explicabo fugiat repudiandae nemo unde tenetur repellendus inventore molestias amet nostrum ea vel, aliquam distinctio mollitia reprehenderit. Consequuntur? Totam veritatis dicta amet, et temporibus obcaecati magni commodi quos inventore, iure dolore. Explicabo accusamus adipisci, numquam amet consectetur sed consequatur odio ex, quaerat unde beatae similique aliquid aut veritatis!
-
-Ipsam illum odio numquam reprehenderit aut non libero. Perspiciatis, provident amet nam illo quo at dignissimos, beatae quaerat eligendi. Possimus placeat deserunt facere ullam deleniti ut error ad odit laboriosam. Vero enim, in dolores! Fugit itaque vitae repellendus soluta ducimus. Expedita, necessitatibus aliquam incidunt! Quas eaque ad neque aliquid maxime, quod consequuntur consectetur harum recusandae voluptatibus illo, itaque facilis, amet. Reprehenderit eveniet rem excepturi autem sit dignissimos quas non aliquam, unde ad saepe voluptatum quos, maiores deserunt cum ducimus similique id cupiditate eligendi repellat ratione error, enim nostrum. Consequatur, vitae!
+<section id="about">
+  <h3>¿De dónde venimos?</h3>
+  <p>
+    La Fundación Ciudadano Inteligente inició sus actividades en el año 2009 con la intención de afrontar los mayores desafíos en materia de fortalecimiento democrático en América Latina impulsando para ello una mayor transparencia, una más contundente participación ciudadana y aprovechando la tecnología para facilitar dichos procesos. En ese momento se dio una coyuntura en Chile en el que por un lado estaba entrando en vigencia una ley de acceso a la información, y por otro estaba por iniciar un proceso electoral presidencial. Adicionalmente se hizo cada vez más claro que los medios digitales eran cada vez más una herramienta más común para la interacción entre personas. En ese sentido, la Fundación encontró en su origen una oportunidad: utilizar tecnología para fomentar mejores procesos de participación y los sistemas de gestión pública.
+  </p>
+  <p>
+    En estos más de 6 años FCI ha realizado más de 20 proyectos involucrando para ello a otros actores en la operación, diseño y evaluación. En ese tiempo hemos observado muchos de los grandes obstáculos que restringen una mayor participación en diferentes países, pero al mismo tiempo hemos encontrado muchas y muy buenas oportunidades de abrir espacios, redes y plataformas que no existían antes.
+  </p>
+  <h3>Valores y Principios</h3>
+  <p>
+    Nuestra visión de sociedad y nuestra forma de actuar se inspira en valores y principios que constituyen la médula de la identidad de nuestra fundación y que buscamos promover en todos nuestros ámbitos de acción.
+  </p>
+  <p>
+    Democracia como redistribución del poder: Desde Ciudadano Inteligente creemos que el concepto de Democracia engloba las distintas condiciones que permiten que en los procesos de deliberación y decisión, todos los miembros de la sociedad tengan una incidencia equitativa. Eso incluye una preocupación por las asimetrías de información y la generación de espacios de participación, así como también una promoción por el respeto, la diversidad, la empatía y los derechos humanos.
+    Innovación y Creatividad: El enfoque con el que Ciudadano Inteligente adopta desafíos, plantea soluciones y genera diálogos está basado en la búsqueda de la innovación y el ejercicio creativo.
+    Actitud Propositiva: Las acciones de Ciudadano Inteligente no se quedan en la denuncia, sino que buscan constantemente proponer ideas, modelos, sistemas y herramientas que mejoren las condiciones existentes.
+  </p>
+</section>
