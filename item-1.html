@@ -16,7 +16,7 @@ layout: default
 		    <div class="panel panel-default">
 		    <!-- Heading -->
 		      <div class="panel-heading" role="tab" id="heading-{{ forloop.index }}">
-		        <h4 class="panel-title">
+		        <h4 class="panel-title text-center">
 				          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#project-{{ forloop.index }}" aria-expanded="false" aria-controls="project-{{ forloop.index }}">
 				            {{t.tool_title}}
 				          </a>
@@ -25,7 +25,6 @@ layout: default
 		      <!-- Contenido -->
 		      <div id="project-{{ forloop.index }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-{{ forloop.index }}">
 		        <div class="panel-body">
-		          <h3 class="text-center">{{ t.tool_title }}</h3>
 		          <h4 class="bajada">{{ t.tool_description }}</h4>
 		          <!-- Slider -->
 		          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">

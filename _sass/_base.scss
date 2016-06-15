@@ -392,6 +392,19 @@ Hero
     margin-top: 60px;
 }
 
+.panel {
+    border: none;
+}
+
+.panel-title {
+    font-size: 1.2rem;
+}
+
+.panel-default>.panel-heading {
+    background-color: $celeste;
+    color: white;
+}
+
 /*Contacto*/
 
 section#contacto {
