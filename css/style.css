@@ -117,6 +117,7 @@ Main content
   -webkit-transition: -webkit-transform 0.5s 0.4s;
   -moz-transition: -moz-transform 0.5s 0.4s;
   transition: transform 0.5s 0.4s;
+  cursor: pointer;
 }
 .cd-item > a {
   display: table;
@@ -130,6 +131,7 @@ Main content
 .cd-item div {
   display: table-cell;
   vertical-align: middle;
+  margin-top: 80px;
 }
 .cd-item p {
   line-height: 1.2;
@@ -148,7 +150,7 @@ Main content
   .cd-item {
     width: 50%;
     float: left;
-    height: 375px;
+    height: 520px;
   }
   .cd-item .row .col-md-8 h2 {
     transform: translateY(30px);
