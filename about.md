@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Sobre nosotros
-permalink: /about/
+permalink: /about-us/
 ---
-
 <section id="about">
   <h3>¿De dónde venimos?</h3>
   <p>

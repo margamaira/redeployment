@@ -2,88 +2,82 @@
 layout: default
 ---
 <body>
-  <main class="cd-main">
-    <div id="hero">
-      <div class="container">
-        <h1>Impulsa tu organización con nuestras herramientas de código libre y 100% adaptables</h1>
-        <h3>Revisa las categorías de herramientas que tenemos para ti</h3>
-      </div>
+  <div id="hero">
+    <div class="container">
+      <h1>Impulsa tu organización con nuestras herramientas de código libre y 100% adaptables</h1>
+      <h3>Revisa las categorías de herramientas que tenemos para ti</h3>
     </div>
-    <section id="categorias">
+  </div>
+  <section id="categorias">
+    <main class="cd-main">
       <ul class="cd-gallery">
         <li class="cd-item">
-            <div class="row">
-              <div class="col-md-8">
-                <h2>Se puede incidir en la participación ciudadana</h2>
-                <p>Fomentar y facilitar la participación para apoyar la activación colectiva y sumar el apoyo a iniciativas ciudadanas.</p>
-                <a href="item-1.html" onClick="ga('send','event','click','btn-ver-mas-participacion')"><b class="btn btn-primary btn-lg">Ver más</b></a>
-              </div>
-              <div class="hidden-xs col-md-4">
-                <img src="{{ site.baseurl }}/img/icono-participacion.svg" alt="participación" class="img-responsive">
-              </div>
+          <div class="row">
+            <div class="col-md-8">
+              <h2><a href="item-1.html" onClick="ga('send','event','click','titulo-participacion')">Se puede incidir en la participación ciudadana</a></h2>
+              <p>Fomentar y facilitar la participación para apoyar la activación colectiva y sumar el apoyo a iniciativas ciudadanas.</p>
+              <a href="item-1.html" onClick="ga('send','event','click','btn-ver-mas-participacion')" class="btn btn-primary btn-lg">Ver más</a>
             </div>
+            <div class="hidden-xs col-md-4">
+              <img src="{{ site.baseurl }}/img/icono-participacion.svg" alt="participación" class="img-responsive">
+            </div>
+          </div>
         </li>
         <li class="cd-item">
-            <div class="row">
-              <div class="col-md-8">
-                <h2>Estar más y mejor informados</h2>
-                <p>Transparentar datos, revelar antecedentes y explicar conflictos para comparar posturas con el usuario.</p>
-                <a href="item-2.html" onClick="ga('send','event','click','btn-ver-mas-informacion')"><b class="btn btn-primary btn-lg">Ver más</b></a>
-              </div>
-              <div class="hidden-xs col-md-4">
-                <img src="{{ site.baseurl }}/img/icono-informacion.svg" alt="información" class="img-responsive">
-              </div>
+          <div class="row">
+            <div class="col-md-8">
+              <h2><a href="item-2.html" onClick="ga('send','event','click','titulo-informacion')">Estar más y mejor informados</a></h2>
+              <p>Transparentar datos, revelar antecedentes y explicar conflictos para comparar posturas con el usuario.</p>
+              <a href="item-2.html" onClick="ga('send','event','click','btn-ver-mas-informacion')" class="btn btn-primary btn-lg">Ver más</a>
             </div>
+            <div class="hidden-xs col-md-4">
+              <img src="{{ site.baseurl }}/img/icono-informacion.svg" alt="información" class="img-responsive">
+            </div>
+          </div>
         </li>
         <li class="cd-item">
-            <div class="row">
-              <div class="col-md-8">
-                <h2>Cuentas públicas y estado de avance</h2>
-                <p>fomentar la rendición de cuentas y su contraparte, la fiscalización ciudadana, como otra forma de transparencia. </p>
-                <a class="dark-text" href="item-3.html" onClick="ga('send','event','click','btn-ver-mas-rendicion')"><b class="btn btn-primary btn-lg">Ver más</b></a>
-              </div>
-              <div class="hidden-xs col-md-4">
-                <img src="{{ site.baseurl }}/img/icono-rendicion.svg" alt="rendición" class="img-responsive">
-              </div>
+          <div class="row">
+            <div class="col-md-8">
+              <h2><a href="item-3.html" onClick="ga('send','event','click','titulo-rendicion')">Cuentas públicas y estado de avance</a></h2>
+              <p>fomentar la rendición de cuentas y su contraparte, la fiscalización ciudadana, como otra forma de transparencia. </p>
+              <a class="dark-text btn btn-primary btn-lg" href="item-3.html" onClick="ga('send','event','click','btn-ver-mas-rendicion')">Ver más</a>
             </div>
+            <div class="hidden-xs col-md-4">
+              <img src="{{ site.baseurl }}/img/icono-rendicion.svg" alt="rendición" class="img-responsive">
+            </div>
+          </div>
         </li>
         <li class="cd-item">
-            <div class="row">
-              <div class="col-md-8">
-                <h2>Incide de manera estratégica junto a tu equipo</h2>
-                <p>Reduce riesgos y aumenta el desempeño de tu equipo al momento de incidir en políticas públicas.</p>
-                <a href="item-4.html" onClick="ga('send','event','click','btn-ver-mas-incidencia')"><b class="btn btn-primary btn-lg">Ver más</b></a>
-              </div>
-              <div class="hidden-xs col-md-4">
-                <img src="{{ site.baseurl }}/img/icono-incidencia.svg" alt="incidencia" class="img-responsive">
-              </div>
+          <div class="row">
+            <div class="col-md-8">
+              <h2><a href="item-4.html" onClick="ga('send','event','click','btn-ver-mas-incidencia')">Incide de manera estratégica junto a tu equipo</a></h2>
+              <p>Reduce riesgos y aumenta el desempeño de tu equipo al momento de incidir en políticas públicas.</p>
+              <a href="item-4.html" onClick="ga('send','event','click','btn-ver-mas-incidencia')" class="btn btn-primary btn-lg">Ver más</a>
             </div>
+            <div class="hidden-xs col-md-4">
+              <img src="{{ site.baseurl }}/img/icono-incidencia.svg" alt="incidencia" class="img-responsive">
+            </div>
+          </div>
         </li>
       </ul> <!-- .cd-gallery -->
     </main> <!-- .cd-main -->
-
     <div class="cd-folding-panel">
-
       <div class="fold-left"></div> <!-- this is the left fold -->
-
       <div class="fold-right"></div> <!-- this is the right fold -->
-
       <div class="cd-fold-content"><!-- content will be loaded using javascript --></div>
       <a class="cd-close" href="#0"></a>
     </div>
-        <!-- .cd-folding-panel -->
+    <!-- .cd-folding-panel -->
   </section>
-
-      <!-- <section id="mapa">
-        <div class="container">
-          {% include mapa.html %}
-        </div>
+  <!-- <section id="mapa">
+    <div class="container">
+      {% include mapa.html %}
+    </div>
   </section> -->
   <section id="contacto">
     <div class="container">
       {% include contacto.html %}
     </div>
   </section>
-
   <script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
