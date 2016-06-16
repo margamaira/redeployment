@@ -314,6 +314,29 @@ Hero
   color: white;
   font-weight: 700;
 }
+@media only screen and (max-width: 425px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+      font-size: 1.2rem;
+  }
+  #hero {
+    padding: 50px 0;
+  }
+  .cd-item p {
+   font-size: 1rem;
+  }
+}
 @media only screen and (min-width: 600px) {
   #hero h1 {
     font-size: 3rem;
