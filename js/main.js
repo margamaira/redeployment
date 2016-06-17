@@ -3,7 +3,6 @@ jQuery(document).ready(function($){
 		foldingPanel = $('.cd-folding-panel'),
 		mainContent = $('.cd-main');
 	/* open folding content */
-  // $('#whatever').on({ 'touchstart' : function(){ /* do something... */ } });
   gallery.on('touchstart', 'a', function(event){
     event.preventDefault();
     openItemInfo($(this).attr('href'));
@@ -78,4 +77,34 @@ jQuery(document).ready(function($){
 		/* retrieve the content value of .cd-main::before to check the actua mq */
 		return window.getComputedStyle(document.querySelector('.cd-main'), '::before').getPropertyValue('content').replace(/"/g, "").replace(/'/g, "");
 	}
+});
+
+window.addEventListener('load', function() {
+  'use strict';
+
+  var outputElement = document.getElementById('output');
+  var isLocalhost = Boolean(window.location.hostname === 'localhost' ||
+    // [::1] is the IPv6 localhost address.
+    window.location.hostname === '[::1]' ||
+    // 127.0.0.1/8 is considered localhost for IPv4.
+    window.location.hostname.match(
+      /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
+    )
+  );
+
+  if ('serviceWorker' in navigator && (window.location.protocol === 'https:' || isLocalhost)) {
+    navigator.serviceWorker.register('service-worker.js', { scope: './' })
+        .then(function(r) {
+          console.log('registered service worker');
+        })
+        .catch(function(error) {
+          console.error(error);
+        });
+
+    window.addEventListener('beforeinstallprompt', function(e) {
+      e.preventDefault();
+      return false;
+    });
+  }
+
 });
